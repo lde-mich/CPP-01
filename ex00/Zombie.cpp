@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:47:34 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/11 15:47:27 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/11 15:52:09 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ Zombie::~Zombie()
 
 void Zombie::Announce()
 {
-	std::cout <<getName<< "BraiiiiiiinnnzzzZ..." << std::endl;
+	std::cout <<getName()<< "BraiiiiiiinnnzzzZ..." << std::endl;
 }
 
 void Zombie::setName(std::string name)
