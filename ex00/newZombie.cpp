@@ -6,7 +6,17 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 15:46:53 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/10 15:46:54 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/11 13:46:21 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Zombie.hpp"
+
+Zombie *Zombie::newZombie(std::string name)
+{
+	Zombie *zombie;
+
+	zombie = new Zombie;
+	zombie->setName(name);
+	return (zombie);
+}
