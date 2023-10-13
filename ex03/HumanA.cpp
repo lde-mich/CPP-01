@@ -6,8 +6,18 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 10:52:35 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/13 10:52:44 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/13 13:42:05 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanA.hpp"
+
+HumanA::HumanA()
+{
+	
+}
+
+HumanA::~HumanA()
+{
+	
+}
