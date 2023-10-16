@@ -6,25 +6,21 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 10:50:04 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/13 13:02:46 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/16 15:30:06 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 
-Weapon::Weapon(std::string name)
+Weapon::Weapon(std::string type)
 {
-	
-}
-
-Weapon::Weapon()
-{
-	std::cout << "Constructor called" << std::endl;
+	std::cout << "Weapon Constructor called" << std::endl;
+	this->type = type;	
 }
 
 Weapon::~Weapon()
 {
-	std::cout << "Destructor called" << std::endl;
+	std::cout << "Weapon Destructor called" << std::endl;
 }
 
 const std::string&	Weapon::getType()

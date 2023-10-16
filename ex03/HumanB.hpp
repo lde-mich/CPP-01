@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 10:52:55 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/13 13:47:28 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/16 15:28:06 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,13 @@ class HumanB
 {
 	private:
 		std::string	name;
-		Weapon	*Weapon;
+		Weapon	*weapon;
 	public:
 		void attack();
+		std::string getName();
+		void		setName(std::string name);
 
-		HumanB();
+		HumanB(std::string name, Weapon *weapon);
+		HumanB(std::string name);
 		~HumanB();
 };
