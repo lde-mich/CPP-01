@@ -6,7 +6,7 @@
 /*   By: lde-mich <lde-mich@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 10:53:25 by lde-mich          #+#    #+#             */
-/*   Updated: 2023/10/16 16:26:07 by lde-mich         ###   ########.fr       */
+/*   Updated: 2023/10/16 16:56:16 by lde-mich         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,11 @@ std::string HumanB::getName()
 void HumanB::setName(std::string name)
 {
     this->name = name;
+}
+
+void HumanB::setWeapon(Weapon &weapon)
+{
+    this->weapon = &weapon;
 }
 
 void HumanB::attack()
